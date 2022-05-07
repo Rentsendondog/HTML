@@ -1,0 +1,330 @@
+/*------------1. Текст сүүдэрлэлт-----------*/
+.dasgal1
+{
+	text-shadow: 2px 5px 5px deepskyblue;
+}
+
+/*------------2. Дугуй булан---------------*/
+.red
+{
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin: 10px;
+  border: 3px;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 30px;
+  display: inline-block;
+}
+.yellow
+{
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  border: 3px;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 30px;
+  display: inline-block;
+}
+.green
+{
+   width: 200px;
+  height: 200px;
+  background: green;
+  margin: 10px;
+  border: 3px;
+  border-radius: 100px;
+  text-align: center;
+  margin-right: 30px;
+  display: inline-block;
+}
+.clr
+{
+	clear: both;
+}
+/*---------------3. Хайрцаг сүүдэрлэлт---------------*/
+.box
+{
+
+}
+
+.blue 
+{
+  background: blue;
+  width: 200px;
+  height: 200px;
+  box-shadow: 15px 15px 20px dimgrey;
+  margin: 10px;
+  margin-right: 30px;
+  display: inline-block;
+} 
+.pink 
+{
+  background: hotpink;
+  width: 200px;
+  height: 200px;
+  box-shadow: -15px -15px 30px dimgrey;
+  margin: 10px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.orange
+{
+  background: orange;
+  width: 200px;
+  height: 200px;
+  box-shadow: 15px 15px 10px dimgrey;
+  margin: 10px;
+  display: inline-block;
+  margin-right: 30px;
+}
+/*----------------4. Шугаман градиент----------------*/
+.rainbow
+{
+	width: 500px;
+	height: 500px;
+	background: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
+  margin: 10px;
+}
+/*---------------5. Цацраг градиент------------------*/
+.radial
+{
+	width: 500px;
+	height: 500px;
+	background: radial-gradient(at 0% 90%, red, yellow, green);
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+/*---------------6. Анимейшн-------------------------*/
+@keyframes My_first_animation {
+  0%   {background-color:red; left:0px; top:0px;}
+  6%  {background-color:orange; left:400px; top:0px;}
+  12%  {background-color:yellow; left:400px; top:400px;}
+  18%  {background-color:green; left:0px; top:400px;}
+  24% {background-color:blue; left:0px; top:100px;}
+  30% {background-color:indigo; left:300px; top:100px;}
+  36% {background-color:indigo; left:300px; top:300px;}
+  42% {background-color:violet; left:100px; top:300px;}
+  48% {background-color:violet; left:100px; top:200px;}
+  54% {background-color:indigo; left:200px; top:200px;}
+  60% {background-color:indigo; left:200px; top:300px;}
+  66% {background-color:blue; left:100px; top:300px;}
+  72% {background-color:blue; left:100px; top:100px;}
+  78% {background-color:green; left:300px; top:100px;}
+  84% {background-color:yellow; left:300px; top:400px;}
+  90% {background-color:orange; left:0px; top:400px;}
+  100% {background-color:red; left:0px; top:0px;}
+  
+}
+.animation
+{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: My_first_animation;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+.area 
+{
+  background: cyan;
+  width: 500px;
+  height: 500px;
+
+}
+
+/*-----------------7 Skew----------------*/
+
+.skew .textbox
+{
+  margin: 75px;
+  background: lightgreen;
+  height: 100px;
+  width: 200px;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 250%;
+  border: 3px solid darkgreen;
+  border-radius: 15px;
+  transform: skew(-45deg);
+  animation: ske1w 3s infinite linear;
+  animation-name: skew;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; 
+  animation-duration: 5s;
+
+}
+
+@keyframes skew
+{
+  from { transform: skewY(0deg); }
+  25% {transform: skewY(-30deg);}
+  50% { transform: skewX(0); }
+  75% { transform: skewX(30deg);}
+  to { transform: skewX(0); }
+}
+
+/*-----------------8. Зураг хоорондын шилжилт---------------*/
+
+#cover 
+{
+  position: relative;
+  margin: 0 auto;
+  width: 95%;
+  height: 420px;
+  padding: 15px;
+}
+#cover img 
+{
+  position: absolute;
+  left: 0;
+  transform: opacity 4s ease-in-out;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+}
+#cover img.bottom:hover{opacity: 0;}
+#cover img.top:hover{opacity: 0;}
+#cover img.top1:hover{opacity: 0;}
+#cover img.top2:hover{opacity: 0;}
+#cover img.top3:hover{opacity: 0;}
+
+
+/*---------------9.Олон баганатай текст------------ */
+
+.news
+{
+  column-count: 2;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-rule-color: blue;
+  padding: 15px 20px;
+}
+
+/*------------------10. Flexbox--------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Righteous&display=swap');
+.Flexbox
+{
+  flex-wrap: wrap;
+  width: 600px;
+  height: 450px;
+  background: yellow;
+  color: black;
+  padding: 10px 10px;
+  margin: 30px;
+  text-align: center;
+}
+.box-1
+{
+  display: flex;
+  justify-content: center;
+
+}
+.box-2
+{
+  display: flex;
+  justify-content: center;
+}
+.Flexbox div .title13 h1
+{
+   font-family: 'Righteous', cursive;
+   font-family: 'Archivo Black', sans-serif;
+   font-size: 25px;
+}
+
+.blue-box1
+{
+  background: blue;
+  width: 150px;
+  height: 110px;
+  margin: 8px;
+  display: inline-block;
+}
+.blue-box2
+{
+  background: blue;
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+.red-box1
+{
+  background: red;
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+.red-box2
+{
+  background: red;
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+.purple-box1
+{
+  background: purple;
+  width: 150px;
+  height: 130px;
+  margin: 8px;
+}
+.purple-box2
+{
+  background: purple;
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+
+/*---------------------11. Transformation------------------*/
+
+.image img 
+{
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  margin-right: 40px;
+}
+.image img:hover {
+  transform: scale(1.2, 1.2);
+}
+.image2
+{
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.image3
+{
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.image4
+{
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+/*------------------12. Media Queries-------------------*/
+@media handheld and (max-width: 480px),
+       screen and (max-device-width: 480px),
+       screen and (max-width: 480px){
+      .news2
+      {
+        column-count: 1;
+      }
+}
+
+@media only screen and (min-width: 481px)
+{
+.news2 {
+    column-count: 4;
+  }
+}

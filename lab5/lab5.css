@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Rubik+Mono+One&display=swap');
+*
+{
+	box-sizing: border-box;
+}
+.container
+{
+	width: 50%;
+	margin: 0 auto;
+	background: white;
+
+}
+.header
+{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,112,1) 45%, rgba(0,212,255,1) 100%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.header img
+{
+	width: 80px;
+	height: 80px;
+	text-align: center;
+}
+.header p 
+{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.header h1
+{
+	font-family: 'Rubik Mono One', sans-serif;
+}
+.header h1 span 
+{
+	color: black;
+
+}
+.text h3
+{
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.text p
+{
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+.zurag1 
+{
+	background: #15474E;
+	margin: 10px;
+	width: 44%;
+	float: left;
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.zurag1 img 
+{
+	text-align: center;
+}
+.zurag2
+{
+	background: #15474E;
+	margin: 10px;
+	width: 44%;
+	float: right;
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.zurag2 img 
+{
+	
+}
+.clr 
+{
+	clear: both;
+}
+.text1
+{
+	margin: 8px;
+	width: 44%;
+	float: left;
+	padding: 10px;
+	text-align: left;
+}
+.text2
+{
+	margin: 8px;
+	width: 44%;
+	float: right;
+	padding: 10px;
+	text-align: left;
+}
+.footer
+{
+	background: #E74C3C;
+	height: 100px;
+	color: white;
+	width: 100%;
+	padding: 15px;
+}
+.some
+{
+	width: 40%;
+	float: left;
+}
+.logo
+{
+	width: 40%;
+	float: right;
+	text-align: right;
+	padding: 15px;
+}
+.logo1
+{
+	padding-left: 15px;
+}
+.logo2
+{
+	padding-left: 15px;
+}
