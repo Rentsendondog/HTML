@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Marcellus+SC&family=Raleway:wght@500&display=swap');
+.container
+{
+	background: black;
+	width: 70%;
+	margin: 0 auto;
+	padding: 5px;
+	
+}
+#topmenu>li
+{
+	display: inline-block;
+	
+	width: 150px;
+	text-align: center ;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+#topmenu a:hover {
+  border-bottom: 3px solid red;
+}
+.header
+{
+	font-family: 'Marcellus SC', serif;
+	font-size: 24px;
+	color: white;
+	width: 150px;
+}
+.window
+{
+	color: black;
+	background: #E5E8E8;
+	border: 0.1px solid #D5D8DC;
+	width: 150px;
+	height: 25px;
+	text-align: center;
+	padding: 10px;
+}
+#topmenu>li:hover ul{
+	display: block;
+
+}
+#topmenu>li>ul
+{
+	position: absolute;
+	list-style: none;
+	padding: 20px;
+	color: black;
+	display: none;
+}
+#topmenu>li>ul>a
+{
+	color: black;
+}
+
+#zarlal1>li>ul
+{
+  display: none;
+  list-style: none;
+
+  background: #E5E8E8;
+  
+  border: 10px solid black;
+}
+#zarlal1>li:hover ul{
+	display: block;
+}
+.w2
+{
+   color: black;
+	
+	width: 300px;
+	height: 170px;
+	padding: 15px;
+}
+#zarlal1>li>a 
+{
+	background: gray;
+	border: 5px solid black;
+	padding: 5px;
+  list-style: none;
+}
+#zarlal1>li
+{
+	position: fixed;
+  bottom: 200px;
+  right: 150px;
+  list-style: none;
+}

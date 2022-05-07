@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Marcellus+SC&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Rubik+Mono+One&display=swap');
+
+/*---------------Reset style--------------*/
+* {
+	padding: 0;
+	margin: 0;
+	/*box-sizing: border-box;*/
+}
+
+html, body {
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 1.5em;
+   width: 800px;
+   margin: 0 auto;
+   border: 1px solid black;
+}
+
+.clr {
+	clear: both;
+}
+/*h1, h2, h3 {
+}*/
+
+.container-1 {
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(28,79,72,1) 100%);
+	width: 800px;
+	float: right;
+
+}
+
+#topmenu {
+	float: right;
+}
+
+#topmenu>li {
+	display: inline-block;
+	width: 120px;
+	padding: 20px 0;
+	color: white;
+	text-align: center;
+
+}
+
+#topmenu>li>a {
+	color: white;
+	font-size: 15px;
+	
+}
+
+#topmenu>li>ul {
+	position: absolute;
+	list-style: none;
+	/*end zvvn - baruun padding hiigeed demii deer dooroos ni padding avna*/
+	color: black;
+	display: block;
+	font-size: 14px;
+	margin: 23px 0;
+	width: 120px;
+	display: none;
+}
+
+#topmenu li:hover {
+  border-bottom: 3px solid red;
+  background: #E5E8E8;
+  color: #f7c08a;
+}
+
+#topmenu>li>ul>li {
+  background: #E5E8E8;
+	border: 0.1px solid #D5D8DC;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#topmenu li:hover ul {
+	display: block;
+}
+
+#topmenu>li>ul>a {
+	color: black;
+}
+
+.container-1>h2>a {
+	float: left;
+	padding: 20px 10px;
+	font-size: 17px;
+	color: white;
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+.container-1>h2>a>span {
+	color: black;
+
+}
+/*----------------------------backround-------------------------*/
+
+.slider {
+	width: 800px;
+	height: 400px;
+	background: url(1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: slide 20s infinite;
+}
+
+@keyframes slide {
+     
+    0%{background: url(e1.jpg);}
+	  20%{background: url(3.jpg);}
+	  40%{background: url(4.jpg);}
+	  60%{background: url(33.jpg);}
+	  80%{background: url(j4.jpg);}
+	  100% {background: url(1.png);}
+  }
+
+  /*---------------------Зураг дээрх үйлдэл---------------*/
+ 
+
+.btn {
+	background: #f2f2f2;
+	width: 205px;
+	height: 115px;
+	border: 1px solid #cccccc;
+	position: absolute;
+  top: 170px;
+  left: 575px;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding-top: 8px;
+
+}
+.slider img {
+	width: 60px;
+	height: 60px;
+}
+
+.slider p {
+  font-size: 15px;
+}
+/*----------------------------Text-----------------------------*/
+.text h3 {
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.text p {
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+/*---------------------------Image-----------------------------*/
+
+.zurag1 {
+	background: #15474E;
+	margin: 10px;
+	width: 44%;
+	float: left;
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.zurag1 img {
+	text-align: center;
+}
+
+.zurag2 {
+	background: #15474E;
+	margin: 10px;
+	width: 44%;
+	float: right;
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+/*---------------------Column------------------*/
+.text10 {
+	column-count: 2;
+	column-gap: 40px;
+	padding: 10px 20px;
+}
+
+.text10 p {
+	margin: 5px;
+	padding: 5px;
+	font-size: 14px;
+}
+
+/*--------------------footer-------------------------*/
+.footer {
+	background: #E74C3C;
+	height: 80px;
+	color: white;
+	width: 98.7%;
+	padding: 8px 5px;
+}
+
+.footer p {
+	font-size: 13px;
+	float: left;
+}
+
+.footer img {
+	width: 50px;
+	height: 50px;
+	float: right;
+	padding-right: 15px;
+	padding-top: 20px;
+}
+
+/*----------------------Zarlal----------------------*/
+
+.footer .c2 #zarlal1>li>ul {
+  display: none;
+  list-style: none;
+  background: #E5E8E8;
+  border: 5px solid black;
+}
+
+.footer .c2 #zarlal1>li:hover ul {
+	display: block;
+}
+
+.w2 {
+   color: black;
+	
+	width: 300px;
+	height: 170px;
+	padding: 15px;
+}
+
+.footer .c2 #zarlal1>li>a  {
+	background: gray;
+	border: 5px solid white;
+	padding: 5px;
+  list-style: none;
+}
+
+.footer .c2 #zarlal1>li {
+	position: fixed;
+  bottom: 10px;
+  left: 280px;
+  list-style: none;
+}
