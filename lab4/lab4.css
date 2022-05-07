@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Smooch+Sans:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@300&family=Smooch+Sans:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Roboto:ital,wght@0,300;0,400;1,700&family=Smooch+Sans:wght@100;500&family=Source+Sans+Pro:ital@1&display=swap');
+table
+{
+	width: 60%;
+	margin: 0 auto;
+
+}
+#header
+{
+	background-color: orange;
+	color: white;
+	padding: 5px;
+	padding-left: 15px;
+	font-size: 36px;
+	font-family: 'Playball', cursive;
+    font-family: 'Smooch Sans', sans-serif;
+    border-radius: 15px;
+}
+.bigtext
+{
+	font-size: 36px;
+}
+.slogan
+{
+	font-size: 20px;
+	font-family: 'Playball', cursive;
+    font-family: 'Smooch Sans', sans-serif;
+    text-transform: Uppercase;
+}
+.main
+{
+   background-color: #ff3300;
+   color: white;
+   font-size: 36px;
+   padding: 10px;
+   font-family: 'Playball', cursive;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Smooch Sans', sans-serif;
+   text-transform: uppercase;
+}
+.nav
+{
+	font-size: 25px;
+	padding: 10px;
+}
+.navtext
+{
+	padding-left: 5px;
+	padding-right: 20px;
+}
+#firstsidebar
+{
+	background-color: #3399ff;
+	padding: 15px;
+	width: 140px;
+}
+#secondsidebar
+{
+	background-color: cyan;
+	color: white;
+	padding: 20px;
+}
+.subtext
+{
+	font-style: italic;
+	padding: 20px;
+	font-family: 'Playball', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.footer
+{
+	background-color: gray;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px;
+}

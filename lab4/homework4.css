@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Holtwood+One+SC&family=Marcellus+SC&family=Raleway:wght@500&display=swap');
+table
+{
+	width: 60%;
+	margin: 0 auto;
+}
+#header
+{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc1UTmalrVJgqJTy3YRhIe6EeN5s_wYeoiXg&usqp=CAU);
+	padding: 10px;
+	color: white;
+	text-align: center;
+            
+}
+.bigtext
+{
+	font-size: 35px;
+    font-family: 'Holtwood One SC', serif;
+}
+.slogan
+{
+	font-size: 20px;
+	font-family: 'Marcellus SC', serif;
+	color: #bfbfbf;
+}
+.button
+{
+	font-size: 25px;
+	font-family: 'Marcellus SC', serif;
+	background-color: #ff0066;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+.title
+{
+	font-size: 23px;
+	padding: 12px;
+	width: 40%;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+
+}
+.subtext
+{
+	color: gray;
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+.shorttext
+{
+	font-size: 14px;
+	color: gray;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+}
+
+.footer
+{
+	color: #ff0066;
+	background-color: gray;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding: 10px;
+}
+
+img
+{
+	border-radius: 50%;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.image1
+{
+	padding-left: 45px;
+}
